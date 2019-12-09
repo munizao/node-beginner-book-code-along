@@ -22,7 +22,7 @@ function start(response, postData) {
   response.end();
 }
 
-function upload(response, postData) {
+function upload(response, request) {
   console.log('Request handler "upload" was called');
   const form = new formidable.IncomingForm();
   console.log('about to parse');
