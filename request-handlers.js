@@ -7,4 +7,4 @@ function upload() {
 }
 
 exports.start = start;
-exports.upload = uploat
+exports.upload = upload;
