@@ -1,6 +1,6 @@
 const server = require('./server');
 const router = require('./router');
-const requestHandlers = require('request-handlers');
+const requestHandlers = require('./request-handlers');
 
 const handle = {};
 handle['/'] = requestHandlers.start;
