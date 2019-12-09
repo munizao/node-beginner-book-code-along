@@ -16,8 +16,7 @@ function start(route, handle) {
 
     request.addListener('end', () => {
       route(handle, pathname, response, postData);
-    })
-    route(handle, pathname, response);
+    });
   }
 
   http.createServer(onRequest).listen(8888);
